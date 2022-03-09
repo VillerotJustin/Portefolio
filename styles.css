@@ -1,0 +1,91 @@
+hr {
+	color: black;
+	height: 3px;
+	padding: 0 4px;
+  	background-color: currentColor;
+  	border: 0;
+  	opacity: 1;
+
+}
+.lienAc {
+	color: black;
+	text-decoration: none;
+}
+
+.homenav{
+	padding-left: 30px;
+}
+.citation{
+	color: grey;
+	border: 1px dashed grey;
+	padding: 5px;
+	text-align: center;
+}
+.italic{
+	font-style: italic;
+}
+.top{
+	margin-top: 50px;
+}
+
+.lien{
+	text-decoration: none;
+	transition: 1s;
+	color: red;
+	border: 3px solid;
+}
+
+.lien:hover{
+	color: white;
+}
+
+.droite{
+	text-align: right;
+}
+
+.gauche{
+	text-align: left;
+}
+
+.item {
+    display: none;
+    position: relative;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 50%, 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.teamcenter {
+	text-align: center;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+
+h1{
+	text-align: center;
+}
+
+ol{
+	font-size: 1.6rem;
+}
+
+.petit{
+	font-size: 1.3rem;
+}
+
+p{
+	font-size: 1.2rem;
+	text-align:	justify;
+	text-indent: 30px;
+}
