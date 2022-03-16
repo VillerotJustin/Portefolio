@@ -89,3 +89,8 @@ p{
 	text-align:	justify;
 	text-indent: 30px;
 }
+
+a{
+	color: black;
+	text-decoration: none;
+}
