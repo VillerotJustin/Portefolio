@@ -5,7 +5,15 @@ hr {
   	background-color: currentColor;
   	border: 0;
   	opacity: 1;
+}
 
+fieldset{
+	color: black;
+	height: 3px;
+	padding: 0 4px;
+  	background-color: currentColor;
+  	border: 0;
+  	opacity: 1;
 }
 .lienAc {
 	color: black;
