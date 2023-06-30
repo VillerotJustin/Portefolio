@@ -1,157 +1,1354 @@
+
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="icon" type="image/ico" href="Docs/favicon.ico">
-    <link href="Docs/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <script src="Docs/bootstrap/js/bootstrap.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <style>
-    .carousel-control-prev{ opacity:1 !important;color:red;}
-</style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <ul class="navbar-nav homenav">
-        <li class="nav-item">
-          <strong><a class="nav-link text-white" href="index.html">Accueil</a></strong>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="profil.html">Mon Profil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="formation.html">Mes Formations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projetEtude.html">Mes projets d'étude</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projetpersonnel.html">Mes projets personnel</a>
-        </li>
-      </ul>
-    </nav>
-        <div class="top">
-          <br>
-            <h1 class="mb-5">Accueil</h1>
-            <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              </div>
-
-              <div class="carousel-inner">
-
-                <a class="carousel-item active" href="profil.html">
-                  <img src="Docs/profil.png" alt="Profil" class="d-block w-100" height="618">
-                </diav>
-
-                <a class="carousel-item" href="formation.html">
-                  <img src="Docs/formation.jpg" alt="Formation" class="d-block w-100" height="618">
-                </a>
-
-                <a class="carousel-item" href="projetEtude.html">
-                  <img src="Docs/projet.jpg" alt="Projet d'étude" class="d-block w-100" height="618">
-                </a>
-
-                <a class="carousel-item" href="projetEtude.html">
-                  <img src="Docs/projet.jpg" alt="Projet personnel" class="d-block w-100" height="618">
-                </a>
-
-              </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden bg">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Villerot Justin - Personal Portfolio Website Template" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="willy wonka" />
+    <title>VILLEROT Justin - Portfolio Website</title>
+  <!--favicon-img--> 
+   <link rel="icon" type="image/png" href="images/logo.png">
+   <!--favicon-img-->
+   <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+    <!--mouse  follower-->
+        <div class="cursor"></div>
+    <!--mouse  follower-->
+    <!--loader-->
+        <div id="loader">
+            <span class="color">Justin</span>Villerot
         </div>
-        <div class="container-xxl">
-          <div class="row mt-5"></div>
-            <div class="teamcenter">
-              Sur ce site web, vous pourrez trouver le portefolio de Justin Villerot.
+    <!--loader-end-->
+    <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+    <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link" >HOME</a>
+                <a href="#" data-text="ABOUT" id="about-link" >ABOUT ME</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+          <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="images/logo.png" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+          <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+              <!--Social Media Links-->
+            <div class="social-media-links">
+                <a href="https://www.instagram.com/justinvillerot/"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
+                <a href="https://www.linkedin.com/in/justin-villerot-06b857274/"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+                <a href="https://github.com/VillerotJustin"><img src="images/iconmonstr-github-1.svg" class="social-media" alt="github-logo"></a>
+
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                <div class="firstline"><span class="color">Justin </span>Villerot</div>
+                <div class="secondline">
+                I'm a
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Develloper.", " Student." ]'></span>
+            <span class="slash">|</span>
+        </div>
+                    <div class="contact">
+                <a href="Mailto:justinvillerot@orange.fr"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
+                <a href="Tel:+33783692879"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
+                    </div>    
+            </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+                <!--header image For when I have a good image-->
+            </div>
+            <!--header image end-->
+        </div>
+           <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class ="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            I'm an IT
+                            <span class="color">student</span>
+                            based in Belfort , France </span>
+                        <br>
+                        <span class="about-second-line">
+                            I was born on 08/08/2003, and I'm currently a student at Belfort's IUT in the IT department.
+                            I'm currently in the fifth semester of my BUT Informatique. <br>
+                            Once I've passed my computer science BUT, I'd like to enroll at ENJMIN or UTBM, depending on which course I'd like to prioritize.
+                            As ENJMIN is a video games school, it represents a more artistic branch than UTBM, which is an engineering school.</span>
+                        <div class="cv">
+                            <a href="Documents/CV.pdf" target="_self" download="yes"><button>Download <span class="colors">CV</span></button></a>
+                        </div>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                        <img src="images/placeholder-two.png" alt="A picture of me">
+                    </div>
+                </div>
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
+                    </div>
+                    <div class="color-selector">
+                        <div class="heading">Custom Colors</div>
+                        <div class="colors">
+                            <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+            <!--services header-->
+                    <div class="services-heading wow">
+                        <span class="color">My</span> areas of expertise
+                    </div>
+            <!--services header end-->
+            <!--services content-->
+                    <div class="services-content">
+                           <div class="service-one service wow">
+                               <div class="service-img">
+                               <img src="images/coding.png" alt="service-one">
+                               </div>
+                               <div class="service-description">
+                                <h2>Web Development</h2>
+                                <p>Even if I can do both I'm more proficient int back-end than front-end.</p>
+                               </div>
+                           </div>
+                           <div class="service-two service wow">
+                               <div class="service-img">
+                               <img src="images/Software.svg" alt="service-two">
+                               </div>
+                               <div class="service-description">
+                                <h2>Software Development</h2>
+                                <p>I can develop software for desktop environment like Windows or Linux.</p>
+                               </div>
+                           </div>
+                           <div class="service-three service wow">
+                            <div class="service-img">
+                               <img src="images/Phone.svg" alt="service-three">
+                            </div>
+                            <div class="service-description">
+                                <h2>Mobile Development</h2>
+                                <p>I can develop an application for android, and I technically have the knowledge to do so on IOS, but I lack the tools to.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                    My <span class="color"> Skills</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                HTML/CSS
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="html-progress wow">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Javascript
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="js-progress wow">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                PHP
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="PHP-progress wow">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                C#
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="CS-progress wow">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                C++
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="CPP-progress wow">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Java
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="java-progress wow">95%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Python
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="python-progress wow">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Kotlin
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="Kotlin-progress wow">95%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
+            <span class ="header-caption"> Some Of My <span class="color"> Works</span></span></div>
+            <div id="portfolio-content">
+                <div class="portfolio portfolio-first">
+                    <div class="portfolio-image">
+                        <img src="images/LogoIUT-W.png" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>My BUT projects</h2>
+                        <p>You will be able to find here all the project that I have done during my BUT</p>
+                        <div class="button"><a href="#" data-text="BUTProjects" id="BUTProjects-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/SoulGarden.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Soul Garden</h2>
+                        <p>
+                            Soul Garden is my biggest active project, it's a personal project that I'm doing on my free time.<br>
+                            It's a TTRPG (Table Top Role Playing Game) with his own attached universe.</p>
+                        <div class="button"><a href="#" data-text="SoulGarden" id="SoulGarden-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                 <!--
+                    <div class="portfolio portfolio-third">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>UI Designing</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate expedita eius dignissimos
+                                .. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                            <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                        </div>
+                    </div>
+                    <div class="portfolio portfolio-fourth">
+                        <div class=" portfolio-image">
+                            <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Wow Graphics</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
+                                 expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                            <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                        </div>
+                    </div>
+                 -->
+            </div>
+        </div>
+        <!--portfolio end-->
+        <!--BUTProjects-->
+        <div id="BUTProjects">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> BUT </span>Projects
+                <span class ="header-caption"> <span class="color">Student </span>Project</span>
+            </div>
+            <div id="BUTProjects-content">
+                <div class="portfolio portfolio-first">
+                    <div class="portfolio-image">
+                        <img src="images/SAE101.png" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 1.01</h2>
+                        <p>
+                            Implémentation d’un besoin client. En partant d’un besoin exprimé par le client, l’objectif est de réaliser une application qui réponde à ce besoin.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject1" id="BUTProject1-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/IA_Image.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 1.02</h2>
+                        <p>
+                            Comparaisons d’approches algorithmiques. En partant d’un besoin exprimé par le client, il faut réaliser une implémentation, comparer plusieurs approches pour la résolution d’un problème et effectuer des mesures de performance simples.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject2" id="BUTProject2-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/CompoInfo.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 1.03</h2>
+                        <p>
+                            A partir d’un cahier des charges donné, l’étudiant devra choisir les outils les plus adaptés aux besoins, les installer, les configurer et créer une notice d’utilisation.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject3" id="BUTProject3-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/MCD_SAE.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 1.04</h2>
+                        <p>
+                            En partant d’un besoin d’un client, l’étudiant devra étudier puis réaliser une base de données portant sur une partie du système d’information à développer.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject4" id="BUTProject4-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/Organisation.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 1.05</h2>
+                        <p>
+                            Formalisation des attentes d’un client pour un projet quelconque, et familiarisation avec la conduite de projet à partir d’un besoin client.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject5" id="BUTProject5-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/SAE106.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 1.06</h2>
+                        <p>
+                            Effectuer une présentation numérique du positionnement économique et/ou écologique d’une entreprise du secteur numérique
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject6" id="BUTProject6-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/BackgammonMenue.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 2.1-2-6</h2>
+                        <p>
+                            Conception d'une application permettant de jouer à un jeu de plateau. Dans le cas de mon équipe Backgammon.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject7" id="BUTProject7-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/ScreenShotSite.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE 2.3-4-5</h2>
+                        <p>
+                            Conception, implémentation, et hébergement d'un site de e-commerce.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject8" id="BUTProject8-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/2WsxOg.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Hunt down bigfoot</h2>
+                        <p>
+                            Game Jam d'évaluation du cours de développement de jeux vidéo.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject9" id="BUTProject9-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder-three.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Site Web PHP</h2>
+                        <p>
+                            Création d'un site web en PHP.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject10" id="BUTProject10-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder-three.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Projet objet connecter</h2>
+                        <p>
+                            Création d'un objet connecter en utilisant un Raspberry Py ou un Arduino.
+                            Dans mon cas, j'ai fait un clavier à macros.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject11" id="BUTProject11-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/S41.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SAE S4</h2>
+                        <p>
+                            Développement d'une application mobile et d'un site web utilisant le Framework VueJS
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject12" id="BUTProject12-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/test.webp" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Stage S4</h2>
+                        <p>
+                            Recherche et mise en place d'une démarche de test fonctionnel.
+                        </p>
+                        <div class="button"><a href="#" data-text="BUTProject13" id="BUTProject13-link"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--BUTProjects end-->
+        <!-- ===============================     All BUT projects pages   =============================== -->
+
+        <!--BUTProject1-->
+        <div id="BUTProject1">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header">  SAE<span class="color"> 1.01</span>
+                <span class ="header-caption"> Development <span class="color"> Java</span></span>
+            </div>
+            <div id="BUTProject1-content">
+
+                <div class="about-main">
+                    <div class="about-first-paragraph-2 wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            <span class="color">Objective</span>
+                            of the project
+                        </span>
+                        <br>
+                        <ul class="about-second-line">
+                            <li>Implementation of a customer requirement, based on a need expressed by the customer.</li>
+                            <li>Organize work within a group.</li>
+                            <li>Develop a Java application based on precise specifications and predefined functions.</li>
+                        </ul>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                    </div>
+                </div>
+
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            <span class="color">Subject</span>
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            The aim of this SAE was to create an application using the Java programming language.
+                            This application was to be used to update the missing token game.
+                            You can find a link to a document explaining the game:<br><br>
+                            <a href="http://info.iut-bm.univ-fcomte.fr/staff/perrot/DUT-INFO/S1/SAE/SAE101102/jeu.html">HERE</a> (documentation might have changed)<br><br>
+                            On the right, you can see an example of the game in its terminal version.<br>
+                            And below, you'll find a screenshot of the graphical version.<br>
+                        </span>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                        <img src="images/SAE101-A.png" style="width: 232px; display: block; margin-left: auto; margin-right: auto; width: 50%;" alt="Terminal version">
+                    </div>
+                </div>
+                <div class="about-main">
+                    <div class="about-img">
+                        <img src="images/SAE101.png" alt="JavaFX version">
+                    </div>
+                </div>
+
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            Deliverables <span class="color">&</span> Documents
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            You'll find all the code we've produced in this
+                            <a href="https://github.com/VillerotJustin/SAE1.01-2">repository</a><br>
+                            The SAE 101 deliverables, include the game interface and the test game execution traces.<br>
+                        </span>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                    </div>
+                </div>
+
+                <div class="about-main">
+                    <div class="about-first-paragraph-2 wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            <span class="color">My</span> Work
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            During this job, I took on the role of project manager.<br>
+                            I had to manage the team I was working with, so I divided up the tasks.<br>
+                            I designed and implemented the algorithm responsible for the terminal and graphical display, as well as the operation of the application.<br>
+                            When it came to implementing the artificial intelligence, I was content to act as a consultant for the algorithm.<br>
+                            I left the implementation to them.<br>
+                        </span>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                    </div>
+                </div>
+
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            <span class="color">Skill </span>Obtained
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            During this project, I obtained the following skills:<br>
+                            <ul>
+                                <li>Management of a small development team.</li>
+                                <li>Development of simple java applications.</li>
+                                <li>Use of the STD_Draw library.</li>
+                                <li>Coding an application according to specifications.</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-first-paragraph wow">
+                        Links<br>
+                        <ul>
+                            <li><a href="https://github.com/VillerotJustin/SAE1.01-2">Github Project</a>.</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
 
 
-          <ol class="ol-1">
-            <li>
-              <a class="row mt-5 lienAc" href="profil.html">
-              <h3>
-                &nbsp; Mon Profil
-              </h3>
-              <div class="row mt-2">
-                <p>
-                  Ici, vous trouverez une breve présentation présentation de ma personne. <br>
-                  Vous pourrez découvrir qui je suis, ce que je fait, ainsi que ce que je projete de faire.
-                </p>
-              </div>
-              </a>
-            </li>
-
-            <li>
-              <a class="row mt-5 lienAc" href="formation.html">
-              <h3>
-                &nbsp; Mes Formations
-              </h3>
-              <div class="row mt-2">
-                <p>
-                  Vous, trouverez ici la présentation des différentes formation que j'ai suivie.<br>
-                  Il y aura un liste de toute les formation que j'ai suivie soit-elle, actuelement active ou non.
-                </p>
-              </div>
-              </a>
-            </li>
-
-            <li>
-              <a class="row mt-5 lienAc" href="projetEtude.html">
-              <h3>
-                &nbsp; Mes projets d'étude
-              </h3>
-              <div class="row mt-2">
-                <p>
-                  Ici, vous pourrez trouver tout les projets auquelles j'ai participé durant mon cursus d'étudiant.
-                </p>
-              </div>
-              </a>
-            </li>
-
-            <li>
-              <a class="row mt-5 lienAc" href="projetpersonnel.html">
-              <h3>
-                &nbsp; Mes projets personnel
-              </h3>
-              <div class="row mt-2">
-                <p>
-                  Ici, vous pourrez trouver mes projet personnels, passé, present, et futur, soit-ils achever ou non.
-                </p>
-              </div>
-              </a>
-            </li>
-            </li>
-
-          </ol>
-
-
-      </div>
-      <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 p-3 bg-dark text-white">
-          Page éditée par Justin Villerot
         </div>
-      </div>
+        <!--BUTProject1 end-->
+
+        <!--BUTProject2-->
+        <div id="BUTProject2">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject2 end-->
+
+        <!--BUTProject3-->
+        <div id="BUTProject3">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject3 end-->
+
+        <!--BUTProject4-->
+        <div id="BUTProject4">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject4 end-->
+
+        <!--BUTProject5-->
+        <div id="BUTProject5">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject5 end-->
+
+        <!--BUTProject6-->
+        <div id="BUTProject6">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject6 end-->
+
+        <!--BUTProject7-->
+        <div id="BUTProject7">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject7 end-->
+
+        <!--BUTProject8-->
+        <div id="BUTProject8">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject8 end-->
+
+        <!--BUTProject9-->
+        <div id="BUTProject9">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject9 end-->
+
+        <!--BUTProject10-->
+        <div id="BUTProject10">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject10 end-->
+
+        <!--BUTProject11-->
+        <div id="BUTProject11">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject11 end-->
+
+        <!--BUTProject12-->
+        <div id="BUTProject12">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject12 end-->
+
+        <!--BUTProject13-->
+        <div id="BUTProject13">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Main </span>Tittle
+                <span class ="header-caption"> Sub <span class="color">&</span>  Tittle</span></div>
+        </div>
+        <!--BUTProject13 end-->
+
+        <!-- ===============================   All BUT projects pages end =============================== -->
+        <!--SoulGarden-->
+        <div id="SoulGarden">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> Soul </span>Garden
+                <span class ="header-caption"> TTRPG <span class="color">&</span>  Universe</span></div>
+        </div>
+        <!--SoulGarden end-->
+        <!--contact-->
+        <div id="contact">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+             <div class="contact-header">Contact <span class="color"> Me</span>
+            <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
+
+            <div class="contact-content">
+                <!--Contact form--><!--
+                 <div class="contact-form">
+                     <div class="form-header">
+                         Message Me
+                     </div>
+                     <form id="myForm" Action="mailto:justinvillerot@orange.fr" method="get" enctype="text/plain">
+                        <div class="input-line">
+                            <input  id="name" type="text" placeholder="Name" class="input-name">
+                            <input id="email" type="email" placeholder="Email"  class="input-name">
+                        </div>
+                        <input type="text" id="subject" placeholder="subject" class="input-subject">
+                        <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
+                        <button type="button" id ="submit" value="send">Submit</button>
+                     </form>
+
+                 </div>-->
+                <!--Contact form-->
+                <!--Contact information-->
+                 <div class="contact-info">
+                    <div class="contact-info-header">
+                        Contact Info
+                    </div>
+                    <div class="contact-info-content">
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Name</h6>
+                            <p>Justin Villerot</p>
+                      </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                      <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                      <div class="contact-info-icon-text">
+                          <h6>Location</h6>
+                          <p>Belfort, France</p>
+                    </div>
+                  </div>
+                  <div class="contect-info-content-line">
+                      <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                      <div class="contact-info-icon-text">
+                          <h6>Call</h6>
+                          <p>+33 7 83 69 28 79</p>
+                    </div>
+                  </div>
+
+                  <div class="contect-info-content-line">
+                      <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                      <div class="contact-info-icon-text">
+                          <h6>Email</h6>
+                          <p>justinvillerot@orange.fr</p>
+                    </div>
+                  </div>
+                    </div>
+                <!--Contact information end-->
+               </div>
+            </div>
+         </div>
+        <!--contact end-->
     </div>
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--particles script-->
+    <script>
+  particlesJS("particles", {"particles":{"number":{"value":40,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+    </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
