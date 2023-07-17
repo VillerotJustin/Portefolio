@@ -1,3 +1,7 @@
+
+$("#content").css("display: block;"); // assuming you have jquery
+$("#javascriptrequired").css("display: none;"); // turn javascript message off
+
 $(window).on('load',function(){
     gsap.to('#loader',1,{y:"-100%"});
     gsap.to('#loader',1,{opacity:0});
