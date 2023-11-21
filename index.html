@@ -41,9 +41,11 @@
         <!--Main-Section-->
         <!--Navigator-fullscreen-->
         <div id="navigation-content">
-            <a href="index.html" class="logo">
-                <img src="images/Flag_of_France.svg" alt="Language change" style="height: 30px; width: 50px;">
-            </a>
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="images/Flag_of_France.svg" alt="Language change" style="height: 30px; width: 30px;">
+                </a>
+            </div>
             <div class="navigation-close">
                 <span class="close-first"></span>
                 <span class="close-second"></span>
@@ -60,7 +62,7 @@
         <!--Menubar-->
         <div id="navigation-bar" style="display: flex; justify-content: space-between;">
             <a href="indexFR.html" style="">
-                <img src="images/Flag_of_France.svg" alt="Language change" style="height: 30px; width: 50px;">
+                <img src="images/Flag_of_France.svg" alt="Language change" style="height: 30px; width: 30px;">
             </a>
             <div class="menubar">
                 <span class="first-span"></span>
@@ -82,12 +84,22 @@
             <!--Social Media Links end-->
             <div class="header-content">
                 <div class="header-content-box">
-                <div class="firstline"><span class="color">Justin </span>Villerot</div>
-                <div class="secondline">
-                I'm a
-            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Developer.", " Student." ]'></span>
-            <span class="slash">|</span>
-        </div>
+                    <div class="firstline">
+                        <span class="color">
+                            Justin 
+                        </span>
+                        Villerot
+                    </div>
+                    <div class="secondline">
+                        I'm a
+                        <span class="txt-rotate color" data-period="1200"data-rotate='[ " Developer.", " Student." ]'></span>
+                        <span class="slash">|</span>
+                        <div class="navigation-links">
+                            <a href="#" data-text="ME" id="about-link-home" >ABOUT ME</a>
+                            <a href="#" data-text="MY PROJECTS" id="portfolio-link-home" >PORTFOLIO</a>
+                            <a href="#" data-text="CONTACT" id="contact-link-home" >CONTACT</a>
+                        </div>
+                    </div>
                     <div class="contact">
                 <a href="Mailto:justinvillerot@orange.fr"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
                 <a href="Tel:+33783692879"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
@@ -2171,8 +2183,130 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio-header"> <span class="color"> Soul </span>Garden
-                <span class ="header-caption"> TTRPG <span class="color">&</span>  Universe</span></div>
+            <div class="portfolio-header"> 
+                <span class="color"> 
+                    Soul 
+                </span>
+                Garden
+                <span class ="header-caption">
+                    TTRPG 
+                    <span class="color">&</span>  
+                    Universe
+                </span>
+            </div>
+            <!--SoulGarden Content-->
+            <div id="SoulGarden-Content">
+
+                <!--General description / intro -->
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            <span class="color">Summary</span>
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            SoulGarden is a group of project which resolve arround one of my project, a TTRPG Nepheshria.<br>
+                            Currently it's composed of the two Core project, and a few sub project that provide tools or add content to the main projects.
+                        </span>
+                    </div>
+                    <!--about picture-->
+                    <div>
+                        <img src="images/placeholder-two.png" style="width: 190px; height: 50px;" alt="Image">
+                    </div>
+                </div>
+
+                <!--Project 1 / Nepheshria Rule Book -->
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            Nepheshria <span class="color">Rule</span> Book
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            The Nepheshria rule book is a book that contain the rules of the TTRPG.<br>
+                            The purpose of this book is to have the rules free from the lore influence.<br>
+                            So that anyone can use them even outside the Nepheshria univers.<br>
+                            <br>
+                            A first draft of the book has been made, but as part of the Nepheshria universe was entengled in the rules.<br>
+                            Furthermore, after a few playtest some of the rules were modified, so the book need a rewrite.
+                        </span>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                    </div>
+                </div>
+
+                <!--Project 2 / Nepheshria Lore Book -->
+                <div class="about-main">
+                    <div class="about-first-paragraph-2 wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            <span class="color">My</span> Work
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            During this internship, I established a testing approach by studying the different tools available, and how they could be used.
+                            Initially, I set up tests covering the application's basic functionalities.<br>
+                            Then, I started to cover the tests concerning the core of the application. <br>
+                            Finally, after the presentation of the internship, thanks to the feedback I received during the presentation, I studied in more detail the other tools available and their use.<br>
+                        </span>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                    </div>
+                </div>
+
+                <!--Project 3 / Nepheshria Foundry VTT Extension -->
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            <span class="color">Skill </span>Obtained
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            During this project, I obtained the following skills:<br>
+                            <ul style="padding: 0 8% 10px;">
+                                <li>Establish a process.</li>
+                                <li>Develop with WinDev AGL.</li>
+                                <li>Basic understanding of functional testing.</li>
+                            </ul>
+                        </span>
+                    </div>
+
+
+
+                    <div class="about-first-paragraph wow">
+                        Links<br>
+                        <ul>
+                            <li><a href="http://www.logiciel-qualite.fr" target="_blank">Enterprise Website</a></li>
+                            <li><a href="./Documents/VILLEROT_Justin_rapport_de_stage.pdf" target="_blank">Internship Report</a></li>
+                            <li><a href="./Documents/VILLEROT_Justin_rapport_technique.pdf" target="_blank">Technical Report</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Project 4 / Nepheshria A Stinky cave One-Shot -->
+                <div class="about-main">
+                    <div class="about-full-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                                <span class="color">Personal </span>feedback
+                            </span>
+                        <span class="about-second-line">
+                                During this internship, I realized that I didn't think at all like someone who had to do testing, but more like a developer.<br>
+                                I need to work on the way I approach a problem if I'm to improve in the field of testing and as a developer. <br>
+                                Also, I tend to start development too quickly, so my prior research can be too limited. <br>
+                                This hasn't been a problem so far, as the projects I've done haven't required me to set up and document an approach.<br>
+                                To conclude, I learned a lot during this internship and I think that if I had to do it again, I'd probably spend two or three times as much time on setting up the approach before starting to implement the tests.
+                            </span>
+                    </div>
+                </div>
+
+            </div>
+            <!--SoulGarden Content end-->
         </div>
         <!--SoulGarden end-->
 

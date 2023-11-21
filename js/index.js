@@ -135,6 +135,35 @@ $(function(){
         gsap.to('#about',0,{display:"block",delay:.7});
         gsap.to('#navigation-content',0,{display:'flex',delay:2});
     })
+    $('#about-link-home').on('click',function(){
+      gsap.to('#navigation-content',0,{display:"none",delay:.7});
+      gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+      gsap.to('#header',0,{display:"none"});
+      gsap.to('#blog',0,{display:"none"});
+      gsap.to('#portfolio',0,{display:"none"});
+      gsap.to('#BUTProject1',0,{display:"none"});
+      gsap.to('#BUTProject2',0,{display:"none"});
+      gsap.to('#BUTProject3',0,{display:"none"});
+      gsap.to('#BUTProject4',0,{display:"none"});
+      gsap.to('#BUTProject5',0,{display:"none"});
+      gsap.to('#BUTProject6',0,{display:"none"});
+      gsap.to('#BUTProject7',0,{display:"none"});
+      gsap.to('#BUTProject8',0,{display:"none"});
+      gsap.to('#BUTProject9',0,{display:"none"});
+      gsap.to('#BUTProject10',0,{display:"none"});
+      gsap.to('#BUTProject11',0,{display:"none"});
+      gsap.to('#BUTProject12',0,{display:"none"});
+      gsap.to('#BUTProject13',0,{display:"none"});
+      gsap.to('#breaker',0,{display:"block"});
+      gsap.to('#breaker-two',0,{display:"block",delay:.1});
+      gsap.to('#SoulGarden',0,{display:"none"});
+      gsap.to('#BUTProjects',0,{display:"none"});
+      gsap.to('#contact',0,{display:"none"});
+      gsap.to('#breaker',0,{display:"none",delay:2});
+      gsap.to('#breaker-two',0,{display:"none",delay:2});
+      gsap.to('#about',0,{display:"block",delay:.7});
+      gsap.to('#navigation-content',0,{display:'flex',delay:2});
+  })
     $('#contact-link').on('click',function(){
         gsap.to('#navigation-content',0,{display:"none",delay:.7});
         gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
@@ -164,6 +193,35 @@ $(function(){
         gsap.to('#contact',0,{display:"block",delay:.7});
         gsap.to('#navigation-content',0,{display:'flex',delay:2});
     })
+    $('#contact-link-home').on('click',function(){
+      gsap.to('#navigation-content',0,{display:"none",delay:.7});
+      gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+      gsap.to('#header',0,{display:"none"});
+      gsap.to('#about',0,{display:"none"});
+      gsap.to('#blog',0,{display:"none"});
+      gsap.to('#portfolio',0,{display:"none"});
+      gsap.to('#BUTProject1',0,{display:"none"});
+      gsap.to('#BUTProject2',0,{display:"none"});
+      gsap.to('#BUTProject3',0,{display:"none"});
+      gsap.to('#BUTProject4',0,{display:"none"});
+      gsap.to('#BUTProject5',0,{display:"none"});
+      gsap.to('#BUTProject6',0,{display:"none"});
+      gsap.to('#BUTProject7',0,{display:"none"});
+      gsap.to('#BUTProject8',0,{display:"none"});
+      gsap.to('#BUTProject9',0,{display:"none"});
+      gsap.to('#BUTProject10',0,{display:"none"});
+      gsap.to('#BUTProject11',0,{display:"none"});
+      gsap.to('#BUTProject12',0,{display:"none"});
+      gsap.to('#BUTProject13',0,{display:"none"});
+      gsap.to('#SoulGarden',0,{display:"none"});
+      gsap.to('#BUTProjects',0,{display:"none"});
+      gsap.to('#breaker',0,{display:"block"});
+      gsap.to('#breaker-two',0,{display:"block",delay:.1});
+      gsap.to('#breaker',0,{display:"none",delay:2});
+      gsap.to('#breaker-two',0,{display:"none",delay:2});
+      gsap.to('#contact',0,{display:"block",delay:.7});
+      gsap.to('#navigation-content',0,{display:'flex',delay:2});
+  })
     $('#portfolio-link').on('click',function(){
         gsap.to('#navigation-content',0,{display:"none",delay:.7});
         gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
@@ -180,6 +238,22 @@ $(function(){
         gsap.to('#portfolio',0,{display:"block",delay:.7});
         gsap.to('#navigation-content',0,{display:'flex',delay:2});
     })
+    $('#portfolio-link-home').on('click',function(){
+      gsap.to('#navigation-content',0,{display:"none",delay:.7});
+      gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+      gsap.to('#header',0,{display:"none"});
+      gsap.to('#about',0,{display:"none"});
+      gsap.to('#contact',0,{display:"none"});
+      gsap.to('#blog',0,{display:"none"});
+      gsap.to('#SoulGarden',0,{display:"none"});
+      gsap.to('#BUTProjects',0,{display:"none"});
+      gsap.to('#breaker',0,{display:"block"});
+      gsap.to('#breaker-two',0,{display:"block",delay:.1});
+      gsap.to('#breaker',0,{display:"none",delay:2});
+      gsap.to('#breaker-two',0,{display:"none",delay:2});
+      gsap.to('#portfolio',0,{display:"block",delay:.7});
+      gsap.to('#navigation-content',0,{display:'flex',delay:2});
+  })
     $('#BUTProjects-link').on('click',function(){
         gsap.to('#navigation-content',0,{display:"none",delay:.7});
         gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
