@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Villerot Justin - Personal Portfolio" />
+    <meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+    <meta name="Villerot Justin" content="portfolio" />
+
+    <!-- Title -->
+    <title>{{ site.title }} | {{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/favicon-200x200.png" | prepend:site.baseurl }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-200x200.png" | prepend:site.baseurl }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-200x200.png" | prepend:site.baseurl }}">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
+
+
+    <!-- Scripts -->
+    <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+    <!--
+    <script src="{{"/assets/js/antiInspector.js" | prepend:site.baseurl }}"></script>
+    -->
+</head>
+<body>
+    <div id="preloader">
+        <div class="load">
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+        </div>
+    </div>
+    {% include landing-page.html %}
+    {% include footer.html %}
+
+</body>
+</html>

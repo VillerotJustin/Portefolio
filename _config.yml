@@ -21,8 +21,8 @@
 title: VILLEROT Justin
 email: justinvillerot@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal portfolio built using Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
+  My personal portfolio built using Jekyll inspired by Neumorphism theme by longpdo and WillyWonka theme by sujal.
+baseurl: "/Portefolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  VillerotJustin
 
