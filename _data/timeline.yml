@@ -1,0 +1,107 @@
+# > title: Name of your timeline entry, university or work place
+# > title-url: Link to your timeline entry, university or work place
+# > date: Time span
+# > subtitle: The description under the title
+# > tags: List of tags you want to associate with the entry
+# > timeline-side: The side on which you want to display the entry: left or right
+
+# Example of a timeline entry
+# - title: airbnb
+#   title-url: https://example.com/
+#   date: Sep 2019 - Present
+#   subtitle: Fullstack Developer
+#   tags:
+#     - tag: React
+#     - tag: Javascript
+#     - tag: Ruby
+#     - tag: Rails
+#   timeline-side: right
+
+- title: Brevet FFCAM - Initiateur SAE
+  title-url: https://cd-savoie.ffcam.fr/toutes-les-formations.html
+  date: Sep 2019
+  subtitle: Managing rock climbing group on artificial structure
+  tags:
+     - tag: Social
+     - tag: Security
+     - tag: Sport
+  timeline-side: left
+
+- title: General baccalaureate
+  title-url:
+  date: sep 2018 - sep 2021
+  subtitle: Good distinction
+  tags:
+    - tag: Maths
+    - tag: Physics and chemistry
+    - tag: Engineer science
+  timeline-side: left
+
+- title: Bachelor's degree
+  title-url:
+  date: sep 2021 - sep 2024
+  subtitle: Computer technology
+  tags:
+    - tag: Software development
+    - tag: Web development
+    - tag: Testing
+  timeline-side: left
+
+- title: HackQC
+  title-url: https://veloinfo.ca/
+  date: nov 2022
+  subtitle: Quebec-wide hackathon
+  tags:
+    - tag: Web development
+    - tag: API development
+    - tag: Second Place
+  timeline-side: right
+
+- title: Qualigest internship
+  title-url: https://www.logiciel-qualite.fr/
+  date: apr 2023 - june - 2023
+  subtitle: Testing internship
+  tags:
+    - tag: Windev
+    - tag: Testing
+  timeline-side: right
+
+- title: Scientific Game Jam
+  title-url: https://github.com/Nepheshria/Optic-Chambers
+  date: 2023
+  subtitle: Game jam around doctorate research
+  tags:
+    - tag: Optic
+    - tag: Game design
+    - tag: Team leading
+    - tag: Unity
+  timeline-side: right
+
+- title: Project Inter Active
+  title-url: https://github.com/helisoya/SAE-Equilibre
+  date: 2023 - 2024
+  subtitle: Just dance like for a sport association
+  tags:
+    - tag: Unity
+    - tag: Level Design
+    - tag: Motion Capture
+  timeline-side: right
+
+- title: ELLIADD internship
+  title-url: ELLIADD
+  date: jan 2024 - apr 2024
+  subtitle: API and website development
+  tags:
+    - tag: fastAPI
+    - tag: Wordpress
+    - tag: Text treatment IA
+  timeline-side: left
+
+- title: Master's degree
+  title-url:
+  date: sep 2024 - Present
+  subtitle: Computer Science
+  tags:
+    - tag: Creation software development
+    - tag: Game development
+  timeline-side: left
