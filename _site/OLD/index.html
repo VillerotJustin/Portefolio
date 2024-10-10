@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Villerot Justin - Personal Portfolio" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="Villerot Justin" content="portfolio" />
+    <title>VILLEROT Justin - Portfolio Website</title>
+  <!--favicon-img--> 
+   <link rel="icon" type="image/png" href="../assets/img/logo.png">
+   <!--favicon-img-->
+   <!--main css file should not be removed -->
+    <link rel="stylesheet" href="OLD-To-SORT/index.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+        <!--mouse  follower-->
+            <div class="cursor"></div>
+        <!--mouse  follower-->
+        <!--loader-->
+        <div id="loader">
+            <span class="color">Justin</span>Villerot
+            <noscript id="loader-nojs" style="color: white; font-size: xxx-large;">
+                This website require javascript
+            </noscript>
+        </div>
+        <!--loader-end-->
+
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <a href="index.html" class="logo">
+                <img src="../assets/img/Flag_of_the_United_Kingdom.svg" alt="Language change" style="height: 30px; width: 30px;">
+            </a>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link" >Accueil</a>
+                <a href="#" data-text="ABOUT" id="about-link" >Mon Profil</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >Portefolio</a>
+                <a href="#" data-text="CONTACT" id="contact-link" >Me contacter</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+
+        <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <a href="index.html">
+                <img src="../assets/img/Flag_of_the_United_Kingdom.svg" alt="Language change" style="height: 30px; width: 30px;">
+            </a>
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+            <!--Header-->
+            <div id="header">
+                <div id="particles"></div>
+                <!--Social Media Liens :-->
+                <div class="social-media-links">
+                    <a href="https://www.instagram.com/justinvillerot/"><img src="../assets/img/instagram logo.png" class="social-media" alt="instagram-logo"></a>
+                    <a href="https://www.linkedin.com/in/justin-villerot-06b857274/"><img src="../assets/img/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+                    <a href="https://github.com/VillerotJustin"><img src="../assets/img/iconmonstr-github-1.svg" class="social-media" alt="github-logo"></a>
+                </div>
+                <!--Social Media Liens : end-->
+                <div class="header-content">
+                    <div class="header-content-box">
+                        <div class="firstline"><span class="color">Justin </span>Villerot</div>
+                        <div data-i18n-key="secondlineMenue" class="secondline">Je suis
+                            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Développeur.", " Étudiant." ]'></span>
+                            <span class="slash">|</span>
+                            <div class="navigation-links">
+                                <a href="Profil.html" data-text="MOI" id="about-link-home" >Mon Profil</a>
+                                <a href="Projets.html" data-text="MES PROJECTS" id="portfolio-link-home" >Portefolio</a>
+                                <a href="Contact.html" data-text="ME CONTACTER" id="contact-link-home" >Me Contacter</a>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <a href="Mailto:justinvillerot@orange.fr"><img src="../assets/img/mail.png" alt="email-pic" class="contactpic"></a>
+                            <a href="Tel:+33783692879"><img src="../assets/img/call.png" alt="phone-pic" class="contactpic"></a>
+                        </div>    
+                    </div>
+                </div>
+                <!--header image-->
+                <div class="header-image">
+                    <!--header image For when I have a good image-->
+                </div>
+                <!--header image end-->
+            </div>
+            <!--Header End-->
+            <!--HomePage End-->
+
+
+    </div>
+
+    <!--all the divisions-->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../_js/vendors/particles.js"></script>
+    <script src="../_js/vendors/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="../assets/js/antiInspector.js"></script>
+    <script src="js/localisation.js"></script>
+
+    <!--particles script-->
+    <script>
+        particlesJS("particles", {"particles":{"number":{"value":40,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+    </script>
+</body>
+</html>
