@@ -1,569 +1,326 @@
 {
-  "theme": {},
-  "content": {
-    "en": {
-      "me": {
-        "last_name": "Justin",
-        "first_name": "Villerot"
-      },
-      "qualifications": [
-        {
-          "name": "Master in Computer Science",
-          "institution": "University of Lyon 2",
-          "start": "2024",
-          "end": "2026"
-        },
-        {
-          "name": "BUT (Bachelor of Technology) in Computer Science",
-          "institution": "IUT Belfort",
-          "start": "2021",
-          "end": "2024"
-        },
-        {
-          "name": "General Baccalaureate",
-          "institution": "Montmorot High School",
-          "specialization": [
-            "Mathematics",
-            "Physics-Chemistry",
-            "Engineering Sciences"
-          ],
-          "honors": "With Honors (Mention Bien)",
-          "start": "2018",
-          "end": "2021"
-        },
-        {
-          "name": "Middle School Diploma (Brevet des Collèges)",
-          "institution": "Middle School of Bletterans",
-          "honors": "With Highest Honors (Mention Très Bien)",
-          "start": "2014",
-          "end": "2018"
-        },
-        {
-          "degree": "Brevet FFCAM Initiateur SAE",
-          "institution": "French Federation of Alpine and Mountain Clubs (FFCAM)",
-          "start": "2019",
-          "end": "2019"
-        }
+  "theme": {
+    "colours": {
+      "primaries":[
+        "#000000",
+        "#ffffff",
+        "#ee7f00"
       ],
-      "experiences": [
-        {
-          "type": "Internship",
-          "subject": "API and AI development",
-          "duration": "4 month",
-          "start": "01-2024",
-          "location": "ELLIADD Laboratory",
-          "tasks": [
-            "Developed an API around an AI model",
-            "Created a website interacting with an API"
-          ]
-        },
-        {
-          "type": "Internship",
-          "subject": "Studying testing method option",
-          "duration": "3 month",
-          "start": "04-2023",
-          "location": "Qualigest - Montbéliard",
-          "tasks": [
-            "Validation testing on software",
-            "Designed a testing methodology"
-          ]
-        },
-        {
-          "type": "Work",
-          "subject": "Worker Assistant at IMTC",
-          "duration": "July & August",
-          "location": "71580 Beaurepaire-en-Bresse",
-          "years": [
-            "2020",
-            "2021",
-            "2022",
-            "2023"
-          ],
-          "tasks": [
-            "One-month summer job as a worker assistant"
-          ]
-        }
-      ],
-      "projects": [
-        {
-          "type": "Project",
-          "subject": "Gamified software development",
-          "duration": "1 year part-time",
-          "start": "2023",
-          "location": "Équilibre - Belfort",
-          "tasks": [
-            "Developed a game for the association Équilibre",
-            "Game Design, Level Design, Motion Capture"
-          ],
-          "link": "https://github.com/helisoya/SAE-Equilibre"
-        },
-        {
-          "type": "Project",
-          "subject": "Scientific Game Jam (Optic Chambers)",
-          "duration": "3 days",
-          "start":"12-2023",
-          "tasks": [
-            "Level Design, Game Design, Programming"
-          ],
-          "link": "https://github.com/Nepheshria/Optic-Chambers"
-        },
-        {
-          "type": "Project",
-          "subject": "GMTK Game Jam (Lich & Peasants)",
-          "duration": "3 days",
-          "start": "07-2023",
-          "tasks": [
-            "Level Design, Game Design, Graphics"
-          ],
-          "link": "https://helisoya.itch.io/lich-peasants"
-        },
-        {
-          "type": "Project",
-          "subject": "HackQC (VeloInfo)",
-          "duration": "1 week",
-          "start": "11-2022",
-          "location": "Québec",
-          "tasks": [
-            "Participated in a pan-Québécois hackathon organized by the government",
-            "Team 'rock_n_donuts' ranked 2nd out of 13 teams"
-          ],
-          "link": "https://www.facteur-m.ca/projets/veloinfo.html"
-        },
-        {
-          "type": "Project",
-          "subject": "Game Jam - Video Game Course (Hunt Down The Big Foot)",
-          "duration": "3 days",
-          "start": "12/2022",
-          "tasks": [
-            "Final evaluation for a video game development course",
-            "2D Top-down procedural generation (Perlin Noise)"
-          ],
-          "link": "https://helisoya.itch.io/hunt-down-the-bigfoot"
-        }
+      "secondaries":[
+        "#929395",
+        "#c7cBca",
+        "#e1e1e1"
       ]
+    }
+  },
+  "content": {
+    "default": "gb",
+    "gb": {
+      "title": "VILLEROT Justin - Portfolio Website",
+      "me": {
+        "title": "",
+        "last_name": "Justin",
+        "first_name": "Villerot",
+        "email": "justinvillerot@gmail.com",
+        "phone": "+33 7 83 69 28 79"
+      },
+      "qualifications": {
+        "title": "qualifications",
+        "content": [
+          {
+            "name": "Master in Computer Science",
+            "institution": "University of Lyon 2",
+            "start": "2024",
+            "end": "2026"
+          },
+          {
+            "name": "BUT (Bachelor of Technology) in Computer Science",
+            "institution": "IUT Belfort",
+            "start": "2021",
+            "end": "2024"
+          },
+          {
+            "name": "General Baccalaureate",
+            "institution": "Montmorot High School",
+            "specialization": [
+              "Mathematics",
+              "Physics-Chemistry",
+              "Engineering Sciences"
+            ],
+            "honors": "With Honors (Mention Bien)",
+            "start": "2018",
+            "end": "2021"
+          },
+          {
+            "name": "Middle School Diploma (Brevet des Collèges)",
+            "institution": "Middle School of Bletterans",
+            "honors": "With Highest Honors (Mention Très Bien)",
+            "start": "2014",
+            "end": "2018"
+          },
+          {
+            "degree": "Brevet FFCAM Initiateur SAE",
+            "institution": "French Federation of Alpine and Mountain Clubs (FFCAM)",
+            "start": "2019",
+            "end": "2019"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "experiences",
+        "content":  [
+          {
+            "type": "Internship",
+            "subject": "API and AI development",
+            "duration": "4 month",
+            "start": "01-2024",
+            "location": "ELLIADD Laboratory",
+            "tasks": [
+              "Developed an API around an AI model",
+              "Created a website interacting with an API"
+            ]
+          },
+          {
+            "type": "Internship",
+            "subject": "Studying testing method option",
+            "duration": "3 month",
+            "start": "04-2023",
+            "location": "Qualigest - Montbéliard",
+            "tasks": [
+              "Validation testing on software",
+              "Designed a testing methodology"
+            ]
+          },
+          {
+            "type": "Work",
+            "subject": "Worker Assistant at IMTC",
+            "duration": "July & August",
+            "location": "71580 Beaurepaire-en-Bresse",
+            "years": [
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ],
+            "tasks": [
+              "One-month summer job as a worker assistant"
+            ]
+          }
+        ]
+      },
+      "projects": {
+        "title": "projects",
+        "content": [
+  {
+    "type": "Project",
+    "subject": "Gamified software development",
+    "duration": "1 year part-time",
+    "start": "2023",
+    "location": "Équilibre - Belfort",
+    "tasks": [
+      "Developed a game for the association Équilibre",
+      "Game Design, Level Design, Motion Capture"
+    ],
+    "link": "https://github.com/helisoya/SAE-Equilibre"
+  },
+  {
+    "type": "Project",
+    "subject": "Scientific Game Jam (Optic Chambers)",
+    "duration": "3 days",
+    "start":"12-2023",
+    "tasks": [
+      "Level Design, Game Design, Programming"
+    ],
+    "link": "https://github.com/Nepheshria/Optic-Chambers"
+  },
+  {
+    "type": "Project",
+    "subject": "GMTK Game Jam (Lich & Peasants)",
+    "duration": "3 days",
+    "start": "07-2023",
+    "tasks": [
+      "Level Design, Game Design, Graphics"
+    ],
+    "link": "https://helisoya.itch.io/lich-peasants"
+  },
+  {
+    "type": "Project",
+    "subject": "HackQC (VeloInfo)",
+    "duration": "1 week",
+    "start": "11-2022",
+    "location": "Québec",
+    "tasks": [
+      "Participated in a pan-Québécois hackathon organized by the government",
+      "Team 'rock_n_donuts' ranked 2nd out of 13 teams"
+    ],
+    "link": "https://www.facteur-m.ca/projets/veloinfo.html"
+  },
+  {
+    "type": "Project",
+    "subject": "Game Jam - Video Game Course (Hunt Down The Big Foot)",
+    "duration": "3 days",
+    "start": "12/2022",
+    "tasks": [
+      "Final evaluation for a video game development course",
+      "2D Top-down procedural generation (Perlin Noise)"
+    ],
+    "link": "https://helisoya.itch.io/hunt-down-the-bigfoot"
+  }
+]
+      }
     },
     "fr": {
-      "moi": {
+      "title": "VILLEROT Justin - Site Portfolio",
+      "me": {
+        "title": "A propos de moi",
         "nom": "Justin",
-        "prénom": "Villerot"
+        "prénom": "Villerot",
+        "email": "justinvillerot@gmail.com",
+        "téléphone": "+33 7 83 69 28 79"
       },
-      "qualifications": [
-        {
-          "nom": "Master en Informatique",
-          "établissement": "Université Lyon 2",
-          "début": "2024",
-          "fin": "2026"
-        },
-        {
-          "nom": "BUT Informatique",
-          "établissement": "IUT Belfort",
-          "début": "2021",
-          "fin": "2024"
-        },
-        {
-          "nom": "Baccalauréat Général",
-          "établissement": "Lycée Agricole de Montmorot",
-          "spécialisation": [
-            "Mathématiques",
-            "Physique-Chimie",
-            "Sciences de l'Ingénieur"
-          ],
-          "mention": "Mention Bien",
-          "début": "2018",
-          "fin": "2021"
-        },
-        {
-          "nom": "Brevet des Collèges",
-          "établissement": "Collège de Bletterans",
-          "mention": "Mention Très Bien",
-          "début": "2014",
-          "fin": "2018"
-        },
-        {
-          "nom": "Brevet FFCAM Initiateur SAE",
-          "établissement": "Fédération Française des Clubs Alpins et de Montagne (FFCAM)",
-          "début": "2019",
-          "fin": "2019"
-        }
-      ],
-      "expériences": [
-        {
-          "type": "Stage",
-          "sujet": "Développement d'API et d'IA",
-          "durée": "4 mois",
-          "début": "01-2024",
-          "lieu": "Laboratoire ELLIADD",
-          "tâches": [
-            "Développement d'une API autour d'un modèle IA",
-            "Création d'un site web interagissant avec une API"
-          ]
-        },
-        {
-          "type": "Stage",
-          "sujet": "Étude des méthodes de test",
-          "durée": "3 mois",
-          "début": "04-2023",
-          "lieu": "Qualigest - Montbéliard",
-          "tâches": [
-            "Test de validation sur un logiciel",
-            "Conception d'une démarche de test"
-          ]
-        },
-        {
-          "type": "Travail",
-          "sujet": "Aide Ouvrier chez IMTC",
-          "durée": "Juillet & Août",
-          "lieu": "71580 Beaurepaire-en-Bresse",
-          "années": [
-            "2020",
-            "2021",
-            "2022",
-            "2023"
-          ],
-          "tâches": [
-            "Emploi d'été d'un mois en tant qu'aide ouvrier"
-          ]
-        }
-      ],
-      "projets": [
-        {
-          "type": "Projet",
-          "sujet": "Développement d'un logiciel ludique",
-          "durée": "1 an à temps partiel",
-          "début": "2023",
-          "lieu": "Équilibre - Belfort",
-          "tâches": [
-            "Développement d'un jeu pour l'association Équilibre",
-            "Game Design, Level Design, Motion Capture"
-          ],
-          "lien": "https://github.com/helisoya/SAE-Equilibre"
-        },
-        {
-          "type": "Projet",
-          "sujet": "Scientific Game Jam (Optic Chambers)",
-          "durée": "3 jours",
-          "début": "12-2023",
-          "tâches": [
-            "Level Design, Game Design, Programmation"
-          ],
-          "lien": "https://github.com/Nepheshria/Optic-Chambers"
-        },
-        {
-          "type": "Projet",
-          "sujet": "GMTK Game Jam (Lich & Peasants)",
-          "durée": "3 jours",
-          "début": "07-2023",
-          "tâches": [
-            "Level Design, Game Design, Graphisme"
-          ],
-          "lien": "https://helisoya.itch.io/lich-peasants"
-        },
-        {
-          "type": "Projet",
-          "sujet": "HackQC (VeloInfo)",
-          "durée": "1 semaine",
-          "début": "11-2022",
-          "lieu": "Québec",
-          "tâches": [
-            "Participation à un hackathon panquébécois organisé par le gouvernement",
-            "L'équipe 'rock_n_donuts' classée 2ᵉ sur 13 équipes"
-          ],
-          "lien": "https://www.facteur-m.ca/projets/veloinfo.html"
-        },
-        {
-          "type": "Projet",
-          "sujet": "Game Jam - Cours de Jeux Vidéo (Hunt Down The Big Foot)",
-          "durée": "3 jours",
-          "début": "12/2022",
-          "tâches": [
-            "Évaluation finale d'un cours de développement de jeux vidéo",
-            "Génération procédurale 2D Top-down (Bruit de Perlin)"
-          ],
-          "lien": "https://helisoya.itch.io/hunt-down-the-bigfoot"
-        }
-      ]
-    },
-    "de": {
-      "ich": {
-        "nachname": "Justin",
-        "vorname": "Villerot"
+      "qualifications": {
+        "title": "A propos de moi",
+        "content": [
+  {
+    "nom": "Master en Informatique",
+    "établissement": "Université Lyon 2",
+    "début": "2024",
+    "fin": "2026"
+  },
+  {
+    "nom": "BUT Informatique",
+    "établissement": "IUT Belfort",
+    "début": "2021",
+    "fin": "2024"
+  },
+  {
+    "nom": "Baccalauréat Général",
+    "établissement": "Lycée Agricole de Montmorot",
+    "spécialisation": [
+      "Mathématiques",
+      "Physique-Chimie",
+      "Sciences de l'Ingénieur"
+    ],
+    "mention": "Mention Bien",
+    "début": "2018",
+    "fin": "2021"
+  },
+  {
+    "nom": "Brevet des Collèges",
+    "établissement": "Collège de Bletterans",
+    "mention": "Mention Très Bien",
+    "début": "2014",
+    "fin": "2018"
+  },
+  {
+    "nom": "Brevet FFCAM Initiateur SAE",
+    "établissement": "Fédération Française des Clubs Alpins et de Montagne (FFCAM)",
+    "début": "2019",
+    "fin": "2019"
+  }
+]
       },
-      "qualifikationen": [
-        {
-          "name": "Master in Informatik",
-          "institution": "Universität Lyon 2",
-          "beginn": "2024",
-          "ende": "2026"
-        },
-        {
-          "name": "BUT (Bachelor of Technology) in Informatik",
-          "institution": "IUT Belfort",
-          "beginn": "2021",
-          "ende": "2024"
-        },
-        {
-          "name": "Allgemeines Abitur",
-          "institution": "Landwirtschaftliches Gymnasium Montmorot",
-          "spezialisierung": [
-            "Mathematik",
-            "Physik-Chemie",
-            "Ingenieurwissenschaften"
-          ],
-          "auszeichnung": "Mit Auszeichnung (Mention Bien)",
-          "beginn": "2018",
-          "ende": "2021"
-        },
-        {
-          "name": "Mittlere Reife (Brevet des Collèges)",
-          "institution": "Mittelschule von Bletterans",
-          "auszeichnung": "Mit höchster Auszeichnung (Mention Très Bien)",
-          "beginn": "2014",
-          "ende": "2018"
-        },
-        {
-          "name": "Brevet FFCAM Initiateur SAE",
-          "institution": "Französischer Verband der Alpen- und Bergclubs (FFCAM)",
-          "beginn": "2019",
-          "ende": "2019"
-        }
-      ],
-      "erfahrungen": [
-        {
-          "typ": "Praktikum",
-          "thema": "API- und KI-Entwicklung",
-          "dauer": "4 Monate",
-          "beginn": "01-2024",
-          "ort": "ELLIADD Labor",
-          "aufgaben": [
-            "Entwicklung einer API für ein KI-Modell",
-            "Erstellung einer Website zur Interaktion mit einer API"
-          ]
-        },
-        {
-          "typ": "Praktikum",
-          "thema": "Untersuchung von Testmethoden",
-          "dauer": "3 Monate",
-          "beginn": "04-2023",
-          "ort": "Qualigest - Montbéliard",
-          "aufgaben": [
-            "Validierungstests für eine Software",
-            "Entwicklung einer Teststrategie"
-          ]
-        },
-        {
-          "typ": "Arbeit",
-          "thema": "Hilfsarbeiter bei IMTC",
-          "dauer": "Juli & August",
-          "ort": "71580 Beaurepaire-en-Bresse",
-          "jahre": [
-            "2020",
-            "2021",
-            "2022",
-            "2023"
-          ],
-          "aufgaben": [
-            "Einmonatiger Sommerjob als Hilfsarbeiter"
-          ]
-        }
-      ],
-      "projekte": [
-        {
-          "typ": "Projekt",
-          "thema": "Entwicklung einer spielerischen Software",
-          "dauer": "1 Jahr in Teilzeit",
-          "beginn": "2023",
-          "ort": "Équilibre - Belfort",
-          "aufgaben": [
-            "Entwicklung eines Spiels für die Organisation Équilibre",
-            "Game Design, Level Design, Motion Capture"
-          ],
-          "link": "https://github.com/helisoya/SAE-Equilibre"
-        },
-        {
-          "typ": "Projekt",
-          "thema": "Scientific Game Jam (Optic Chambers)",
-          "dauer": "3 Tage",
-          "beginn": "12-2023",
-          "aufgaben": [
-            "Level Design, Game Design, Programmierung"
-          ],
-          "link": "https://github.com/Nepheshria/Optic-Chambers"
-        },
-        {
-          "typ": "Projekt",
-          "thema": "GMTK Game Jam (Lich & Peasants)",
-          "dauer": "3 Tage",
-          "beginn": "07-2023",
-          "aufgaben": [
-            "Level Design, Game Design, Grafik"
-          ],
-          "link": "https://helisoya.itch.io/lich-peasants"
-        },
-        {
-          "typ": "Projekt",
-          "thema": "HackQC (VeloInfo)",
-          "dauer": "1 Woche",
-          "beginn": "11-2022",
-          "ort": "Québec",
-          "aufgaben": [
-            "Teilnahme an einem pan-québecischen Hackathon, organisiert von der Regierung",
-            "Team 'rock_n_donuts' belegte den 2. Platz von 13 Teams"
-          ],
-          "link": "https://www.facteur-m.ca/projekte/veloinfo.html"
-        },
-        {
-          "typ": "Projekt",
-          "thema": "Game Jam - Videospielkurs (Hunt Down The Big Foot)",
-          "dauer": "3 Tage",
-          "beginn": "12-2022",
-          "aufgaben": [
-            "Abschlussevaluation eines Videospielentwicklungs-Kurses",
-            "2D-Top-Down prozedurale Generierung (Perlin Noise)"
-          ],
-          "link": "https://helisoya.itch.io/hunt-down-the-bigfoot"
-        }
-      ]
-    },
-    "ja": {
-      "私": {
-        "苗字": "Justin",
-        "名前": "Villerot"
+      "experiences": {
+        "title": "expériences",
+        "content":[
+  {
+    "type": "Stage",
+    "sujet": "Développement d'API et d'IA",
+    "durée": "4 mois",
+    "début": "01-2024",
+    "lieu": "Laboratoire ELLIADD",
+    "tâches": [
+      "Développement d'une API autour d'un modèle IA",
+      "Création d'un site web interagissant avec une API"
+    ]
+  },
+  {
+    "type": "Stage",
+    "sujet": "Étude des méthodes de test",
+    "durée": "3 mois",
+    "début": "04-2023",
+    "lieu": "Qualigest - Montbéliard",
+    "tâches": [
+      "Test de validation sur un logiciel",
+      "Conception d'une démarche de test"
+    ]
+  },
+  {
+    "type": "Travail",
+    "sujet": "Aide Ouvrier chez IMTC",
+    "durée": "Juillet & Août",
+    "lieu": "71580 Beaurepaire-en-Bresse",
+    "années": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "tâches": [
+      "Emploi d'été d'un mois en tant qu'aide ouvrier"
+    ]
+  }
+]
       },
-      "資格": [
-        {
-          "名前": "コンピュータサイエンスの修士号",
-          "機関": "リヨン大学2",
-          "開始": "2024",
-          "終了": "2026"
-        },
-        {
-          "名前": "コンピュータサイエンスのBUT（技術学士）",
-          "機関": "IUTベルフォール",
-          "開始": "2021",
-          "終了": "2024"
-        },
-        {
-          "名前": "一般バカロレア",
-          "機関": "モンモロ農業高校",
-          "専門分野": [
-            "数学",
-            "物理・化学",
-            "工学"
-          ],
-          "栄誉": "優秀賞（Mention Bien）",
-          "開始": "2018",
-          "終了": "2021"
-        },
-        {
-          "名前": "中学校卒業証書（ブレヴェ・デ・コレージュ）",
-          "機関": "ブレテラン中学校",
-          "栄誉": "最優秀賞（Mention Très Bien）",
-          "開始": "2014",
-          "終了": "2018"
-        },
-        {
-          "名前": "FFCAM Initiateur SAE",
-          "機関": "フランスアルプス山岳クラブ連盟（FFCAM）",
-          "開始": "2019",
-          "終了": "2019"
-        }
-      ],
-      "経験": [
-        {
-          "種類": "インターンシップ",
-          "テーマ": "APIとAIの開発",
-          "期間": "4ヶ月",
-          "開始": "2024年1月",
-          "場所": "ELLIADDラボ",
-          "業務": [
-            "AIモデルを使ったAPIの開発",
-            "APIと連携するウェブサイトの作成"
-          ]
-        },
-        {
-          "種類": "インターンシップ",
-          "テーマ": "テスト方法の検討",
-          "期間": "3ヶ月",
-          "開始": "2023年4月",
-          "場所": "Qualigest - モンベリアール",
-          "業務": [
-            "ソフトウェアの検証テスト",
-            "テスト方法論の設計"
-          ]
-        },
-        {
-          "種類": "アルバイト",
-          "テーマ": "IMTCでの作業助手",
-          "期間": "7月と8月",
-          "場所": "71580 Beaurepaire-en-Bresse",
-          "年": [
-            "2020",
-            "2021",
-            "2022",
-            "2023"
-          ],
-          "業務": [
-            "1ヶ月間の夏のアルバイト"
-          ]
-        }
-      ],
-      "プロジェクト": [
-        {
-          "種類": "プロジェクト",
-          "テーマ": "ゲーミフィケーションを活用したソフトウェア開発",
-          "期間": "1年（パートタイム）",
-          "開始": "2023",
-          "場所": "Équilibre - ベルフォール",
-          "業務": [
-            "Équilibreのためにゲームを開発",
-            "ゲームデザイン、レベルデザイン、モーションキャプチャ"
-          ],
-          "リンク": "https://github.com/helisoya/SAE-Equilibre"
-        },
-        {
-          "種類": "プロジェクト",
-          "テーマ": "Scientific Game Jam（Optic Chambers）",
-          "期間": "3日間",
-          "開始": "2023年12月",
-          "業務": [
-            "レベルデザイン、ゲームデザイン、プログラミング"
-          ],
-          "リンク": "https://github.com/Nepheshria/Optic-Chambers"
-        },
-        {
-          "種類": "プロジェクト",
-          "テーマ": "GMTK Game Jam（Lich & Peasants）",
-          "期間": "3日間",
-          "開始": "2023年7月",
-          "業務": [
-            "レベルデザイン、ゲームデザイン、グラフィック"
-          ],
-          "リンク": "https://helisoya.itch.io/lich-peasants"
-        },
-        {
-          "種類": "プロジェクト",
-          "テーマ": "HackQC（VeloInfo）",
-          "期間": "1週間",
-          "開始": "2022年11月",
-          "場所": "ケベック",
-          "業務": [
-            "政府が主催するカナダ全土のハッカソンに参加",
-            "チーム「rock_n_donuts」が13チーム中2位"
-          ],
-          "リンク": "https://www.facteur-m.ca/projets/veloinfo.html"
-        },
-        {
-          "種類": "プロジェクト",
-          "テーマ": "ゲームジャム - ビデオゲームコース（Hunt Down The Big Foot）",
-          "期間": "3日間",
-          "開始": "2022年12月",
-          "業務": [
-            "ビデオゲーム開発コースの最終評価",
-            "2Dトップダウンの手続き型生成（パーリンノイズ）"
-          ],
-          "リンク": "https://helisoya.itch.io/hunt-down-the-bigfoot"
-        }
-      ]
+      "projects": {
+        "title": "projets",
+        "content": [
+  {
+    "type": "Projet",
+    "sujet": "Développement d'un logiciel ludique",
+    "durée": "1 an à temps partiel",
+    "début": "2023",
+    "lieu": "Équilibre - Belfort",
+    "tâches": [
+      "Développement d'un jeu pour l'association Équilibre",
+      "Game Design, Level Design, Motion Capture"
+    ],
+    "lien": "https://github.com/helisoya/SAE-Equilibre"
+  },
+  {
+    "type": "Projet",
+    "sujet": "Scientific Game Jam (Optic Chambers)",
+    "durée": "3 jours",
+    "début": "12-2023",
+    "tâches": [
+      "Level Design, Game Design, Programmation"
+    ],
+    "lien": "https://github.com/Nepheshria/Optic-Chambers"
+  },
+  {
+    "type": "Projet",
+    "sujet": "GMTK Game Jam (Lich & Peasants)",
+    "durée": "3 jours",
+    "début": "07-2023",
+    "tâches": [
+      "Level Design, Game Design, Graphisme"
+    ],
+    "lien": "https://helisoya.itch.io/lich-peasants"
+  },
+  {
+    "type": "Projet",
+    "sujet": "HackQC (VeloInfo)",
+    "durée": "1 semaine",
+    "début": "11-2022",
+    "lieu": "Québec",
+    "tâches": [
+      "Participation à un hackathon panquébécois organisé par le gouvernement",
+      "L'équipe 'rock_n_donuts' classée 2ᵉ sur 13 équipes"
+    ],
+    "lien": "https://www.facteur-m.ca/projets/veloinfo.html"
+  },
+  {
+    "type": "Projet",
+    "sujet": "Game Jam - Cours de Jeux Vidéo (Hunt Down The Big Foot)",
+    "durée": "3 jours",
+    "début": "12/2022",
+    "tâches": [
+      "Évaluation finale d'un cours de développement de jeux vidéo",
+      "Génération procédurale 2D Top-down (Bruit de Perlin)"
+    ],
+    "lien": "https://helisoya.itch.io/hunt-down-the-bigfoot"
+  }
+]}
     }
   }
 }
